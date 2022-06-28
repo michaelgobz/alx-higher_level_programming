@@ -115,5 +115,3 @@ class Rectangle:
         """
 
         print("Bye rectangle...")
-
-
