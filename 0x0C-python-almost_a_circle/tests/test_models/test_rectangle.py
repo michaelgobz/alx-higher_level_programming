@@ -194,4 +194,3 @@ class TestRectangleMethods(unittest.TestCase):
         lff = Rectangle.load_from_file()
         self.assertEqual(lff[0].to_dictionary(), r1.to_dictionary())
         self.assertEqual(lff[1].to_dictionary(), r2.to_dictionary())
-

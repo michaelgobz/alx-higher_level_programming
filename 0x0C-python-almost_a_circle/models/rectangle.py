@@ -100,4 +100,3 @@ class Rectangle(Base):
     def to_dictionary(self):
         """ Return a dict representation of a rectangle """
         return {key: getattr(self, key) for key in Rectangle.HEADERS}
-

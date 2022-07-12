@@ -40,4 +40,3 @@ class Square(Rectangle):
     def to_dictionary(self):
         """ Return a dict representation of a square """
         return {key: getattr(self, key) for key in Square.HEADERS}
-

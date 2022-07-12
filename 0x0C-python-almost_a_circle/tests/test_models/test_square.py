@@ -58,5 +58,3 @@ class TestSquareMethods(unittest.TestCase):
         with patch('sys.stdout', new=StringIO()) as str_out:
             print(s1)
             self.assertEqual(str_out.getvalue(), result)
-
-

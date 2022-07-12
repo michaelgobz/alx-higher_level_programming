@@ -109,4 +109,3 @@ class Base:
             pen.right(90)
             pen.forward(shape.height)
             pen.right(90)
-
