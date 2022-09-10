@@ -7,7 +7,7 @@ from sqlalchemy import String, Integer , Column
 Base = declarative_base()
 
 class State(Base):
-    __table__ = 'State'
+    __table__ = 'states'
     id = Column(Integer,primary_key=True,autoincremnet=True,nullable=False)
     name = Column(String(128), nullable=False)
 
