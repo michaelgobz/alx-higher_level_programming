@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-"""Start link class to table in database """
-from enum import auto
+"""Start link class to state table in database """
 import sys
-from tkinter import TRUE
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import String, Integer , Column
 
