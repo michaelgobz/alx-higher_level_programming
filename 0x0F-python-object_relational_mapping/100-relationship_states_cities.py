@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+
 """ This script creates the State “California” with the City
-San Francisco from the database hbtn_0e_100_usa:
-(100-relationship_states_cities.py) """
+San Francisco from the database hbtn_0e_100_usa """
+
 if __name__ == '__main__':
     from sqlalchemy import create_engine
     from sys import argv
