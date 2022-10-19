@@ -6,4 +6,3 @@ if (process.argv.length > 3) {
     if (err) console.log(err);
   });
 }
-
